@@ -1,0 +1,25 @@
+{
+    "javascript_linter": "jshint",
+
+    // jshint: options for linting JavaScript. See http://jshint.com/#docs for more info.
+    // By deault, eval is allowed.
+    "jshint_options":
+    {
+        "evil": true,
+        "regexdash": true,
+        "node": true,
+        "browser": true,
+        "wsh": true,
+        "trailing": true,
+        "sub": true,
+        "eqeqeq": true,
+        "curly": true,
+        "undef": true,
+        "jquery": "$",
+        "quotmark": "single",
+        "unused": true,
+        "globals": {
+            "define": false
+        }
+    }
+}
