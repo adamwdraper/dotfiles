@@ -1,8 +1,6 @@
 {
+    "sublimelinter_mark_style": "outline",
     "javascript_linter": "jshint",
-
-    // jshint: options for linting JavaScript. See http://jshint.com/#docs for more info.
-    // By deault, eval is allowed.
     "jshint_options":
     {
         "evil": true,
